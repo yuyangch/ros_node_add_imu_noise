@@ -1,6 +1,6 @@
 # ros_node_add_imu_noise
 this is a rose package that add noise to ground truth imu message, adopted from gazebo_imu_plugin.cpp included in PX4's sitl_gazebo. the noise parameters available are:
-
+```
   /// Gyroscope noise density (two-sided spectrum) [rad/s/sqrt(Hz)]
   double gyroscope_noise_density;
   /// Gyroscope bias random walk [rad/s/s/sqrt(Hz)]
@@ -19,4 +19,4 @@ this is a rose package that add noise to ground truth imu message, adopted from 
   double accelerometer_turn_on_bias_sigma;
   /// Norm of the gravitational acceleration [m/s^2]
   double gravity_magnitude;
-
+```
