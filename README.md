@@ -22,7 +22,7 @@ this is a ros package that add noise to ground truth imu message (such as the on
 ```
 
 
-The gazebo_ros_imu.cpp plugin is developed by the following authors 
+The gazebo_imu_plugin.cpp is a gazebo plugin. It is developed by the following authors 
 ```
  * Copyright 2015 Fadri Furrer, ASL, ETH Zurich, Switzerland
  * Copyright 2015 Michael Burri, ASL, ETH Zurich, Switzerland
@@ -34,7 +34,7 @@ The gazebo_ros_imu.cpp plugin is developed by the following authors
  An explanation of the nose parameters can be found at 
  https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model
 
- 
+
  with the following references:
 
  [1] "IEEE Standard Specification Format Guide and Test Procedure for Single-Axis Interferometric Fiber Optic Gyros", IEEE Std 952-1997, 1998 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=660628&isnumber=14457
